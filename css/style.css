@@ -26,7 +26,7 @@ body {
     font-weight: 400;
     padding: 0;
     direction: rtl;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Vazir Code, 'Vazir Code Hack', monospace;
 }
 
 h1,
@@ -309,12 +309,12 @@ a:hover {
 }
 
 .intro2 {
-    background-color: #0E97EE;
-    border: 2px solid #2187BB;
+    background-color: #056b8d;
+    border: 2px solid #b31561;
     border-radius: 5px;
     color: #ffffff;
-    font-style: italic;
     padding: 10px 20px;
+    font-family: Vazir Code, 'Vazir Code Hack', monospace;
 }
 
 .intro2 p {
@@ -390,4 +390,26 @@ a:hover {
 
 #myBtn:hover {
   background-color: #404040;
+}
+
+@font-face {
+  font-family: Vazir Code;
+  src: url('Vazir-Code.eot');
+  src: url('Vazir-Code.eot?#iefix') format('embedded-opentype'),
+       url('Vazir-Code.woff') format('woff'),
+       url('Vazir-Code.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir Code Hack;
+  src: url('Vazir-Code-Hack.eot');
+  src: url('Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
+       url('Vazir-Code-Hack.woff') format('woff'),
+       url('Vazir-Code-Hack.ttf') format('truetype');
+  font-weight: normal;
+}
+
+pre, code {
+  font-family: 'Vazir Code', 'Vazir Code Hack', monospaced;
 }
